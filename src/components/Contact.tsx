@@ -33,8 +33,8 @@ export default function Contact() {
           viewport={{ once: true }}
           className="glass-panel rounded-3xl p-8 md:p-12 mb-20 text-center max-w-4xl mx-auto relative overflow-hidden"
         >
-          <div className="absolute top-0 right-0 w-64 h-64 bg-gold-main/10 rounded-full blur-[80px]" />
-          <div className="absolute bottom-0 left-0 w-64 h-64 bg-gold-light/10 rounded-full blur-[80px]" />
+          <div className="hidden md:block absolute top-0 right-0 w-64 h-64 bg-gold-main/10 rounded-full blur-[80px]" />
+          <div className="hidden md:block absolute bottom-0 left-0 w-64 h-64 bg-gold-light/10 rounded-full blur-[80px]" />
           
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-white mb-6 relative z-10">
             Ready to Start Your Visa Journey?
